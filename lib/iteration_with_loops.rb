@@ -6,12 +6,12 @@ row = 0
 
 while row < src.length do
   element = 0
-  low =  0
+  low_numbers =  0
   while element < src[row].length do
-    low = src[row].min
+    low_numbers = src[row].min
     element += 1
   end
-  result.push(low)
+  result.push(low_numbers)
   row += 1
 end
 result
